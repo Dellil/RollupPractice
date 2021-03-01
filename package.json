@@ -1,0 +1,30 @@
+{
+  "name": "rollup-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@emotion/core": "^11.0.0",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-docs": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-knobs": "^6.1.20",
+    "@storybook/addon-links": "^6.1.20",
+    "@storybook/react": "^6.1.20",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {}
+}
